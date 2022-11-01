@@ -67,5 +67,8 @@ do {
       break;
   }
 
-  ans = prompt("\nDo you want to exit (Y for yes OR Enter to continue)");
-} while (ans != "y" || ans == "Y");
+  console.log(
+    "\nDo you want to perform another calculation? (Y to continue)\n"
+  );
+  ans = prompt("");
+} while (ans == "y" || ans == "Y");
