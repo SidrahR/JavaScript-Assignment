@@ -67,8 +67,6 @@ do {
       break;
   }
 
-  console.log(
-    "\nDo you want to perform another calculation? (Y to continue)\n"
-  );
+  console.log("\nDo you want to perform another calculation? (Y to continue)");
   ans = prompt("");
 } while (ans == "y" || ans == "Y");
